@@ -1,0 +1,80 @@
+:root {
+    --gray-text-color:#999999;
+    --blacl-text-color:#000000;
+    --whte-text-color:#FFFFFF;
+    --accent-color:#4985FF;
+    --shaodw:0px 0px 10px rgba(111, 111, 111, 0.25);
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.56;
+    color: var(--gray-text-color);
+}
+
+.link{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list{
+    list-style: none;
+}
+
+.section-title{
+    font-size: 36px;
+    line-height: 1.47;
+}
+.text-white{
+    color: var(--whte-text-color);
+}
+.text-black{
+    color: var(--blacl-text-color);
+}
+.item-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--blacl-text-color);
+}
+.work{
+    background:linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%),
+        #C4C4C4; 
+}
+.video{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%),
+            #C4C4C4;
+
+}
+.header{
+    background-color: var(--gray-text-color);
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.hero {
+    font-weight: 500;
+    line-height: 1.25;
+    background-color: var(--gray-text-color);
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+}
+.main-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--whte-text-color);
+    cursor: pointer;
+    background:var(--accent-color);
+    box-shadow: var(--shaodw);
+    border-radius: 30px;
+    border: none;
+}

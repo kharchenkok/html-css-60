@@ -5,67 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header text-white">
       <nav>
-        <ul>
-          <li><a href="#home">Головна</a></li>
-          <li><a href="#project"></a>Наші проекти</li>
-          <li><a href="#service"></a>Послуги</li>
-          <li><a href="#news"></a>Новини</li>
-          <li><a href="#contacts"></a>Контакти</li>
+        <ul class="list">
+          <li><a class="link" href="#home">Головна</a></li>
+          <li><a class="link" href="#project"></a>Наші проекти</li>
+          <li><a class="link" href="#service"></a>Послуги</li>
+          <li><a class="link" href="#news"></a>Новини</li>
+          <li><a class="link" href="#contacts"></a>Контакти</li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero text-white">
         <p>Передова IT студія</p>
-        <h1>Ми створюємо легкі рішення важких задач і проблем</h1>
-        <button type="button">Замовити проект</button>
+        <h1 class="hero-title">
+          Ми створюємо легкі рішення важких задач і проблем
+        </h1>
+        <button class="main-button" type="button">Замовити проект</button>
       </section>
       <section>
-        <h2>Ми створюємо мобільні додатки для великих корпорацій</h2>
+        <h2 class="section-title text-black">
+          Ми створюємо мобільні додатки для великих корпорацій
+        </h2>
         <p>
           Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
           веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
           з початку XVI ст.
         </p>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Створення сайтів</h3>
+            <h3 class="item-title">Створення сайтів</h3>
             <p>
               Lorem Ipsum - це текст-"риба", часто використовує у пресі та
               веб-дизайні.
             </p>
           </li>
           <li>
-            <h3>Створення сайтів</h3>
+            <h3 class="item-title">Створення сайтів</h3>
             <p>
               Lorem Ipsum - це текст-"риба", часто використовує у пресі та
               веб-дизайні.
             </p>
           </li>
           <li>
-            <h3>Створення сайтів</h3>
+            <h3 class="item-title">Створення сайтів</h3>
             <p>
               Lorem Ipsum - це текст-"риба", часто використовує у пресі та
               веб-дизайні.
             </p>
           </li>
         </ul>
-        <a href="#service">Всі послуги</a>
+        <a class="link" href="#service">Всі послуги</a>
       </section>
       <section>
-        <h2>Високі стандарти розробки</h2>
+        <h2 class="section-title text-black">Високі стандарти розробки</h2>
         <p>
           Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
           веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
           з початку XVI ст.
         </p>
-        <a href="">Детальніше про компанію</a>
+        <a class="link" href="">Детальніше про компанію</a>
         <img src="./img/about.jpg" alt="Стандарти" width="500" height="400" />
-        <ul>
+        <ul class="list">
           <li>
             <span>125</span>
             <p>Our projects</p>
@@ -88,10 +99,12 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наші роботи на яких ми спеціалізуємось</h2>
-        <a href="#service">Всі послуги</a>
-        <ul>
+      <section class="work">
+        <h2 class="section-title text-white">
+          Наші роботи на яких ми спеціалізуємось
+        </h2>
+        <a class="link" href="#service">Всі послуги</a>
+        <ul class="list">
           <li>
             <img
               src="./img/project.jpg"
@@ -99,13 +112,13 @@
               width="350"
               height="300"
             />
-            <h3>01. Дослідження і упаковка</h3>
+            <h3 class="item-title">01. Дослідження і упаковка</h3>
             <p>
               Lorem Ipsum - це текст-"риба", що часто використовується в пресі
               та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
               латиниці з початку XVI ст.
             </p>
-            <a href="">Детальніше</a>
+            <a class="link" href="">Детальніше</a>
           </li>
           <li>
             <img
@@ -114,13 +127,13 @@
               width="350"
               height="300"
             />
-            <h3>01. Дослідження і упаковка</h3>
+            <h3 class="item-title">01. Дослідження і упаковка</h3>
             <p>
               Lorem Ipsum - це текст-"риба", що часто використовується в пресі
               та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
               латиниці з початку XVI ст.
             </p>
-            <a href="">Детальніше</a>
+            <a class="link" href="">Детальніше</a>
           </li>
           <li>
             <img
@@ -129,26 +142,26 @@
               width="350"
               height="300"
             />
-            <h3>01. Дослідження і упаковка</h3>
+            <h3 class="item-title">01. Дослідження і упаковка</h3>
             <p>
               Lorem Ipsum - це текст-"риба", що часто використовується в пресі
               та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
               латиниці з початку XVI ст.
             </p>
-            <a href="">Детальніше</a>
+            <a class="link" href="">Детальніше</a>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Наші проекти</h2>
+        <h2 class="section-title text-black">Наші проекти</h2>
         <p>
           Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
           веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
           з початку XVI ст.
         </p>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./img/project2.jpg"
                 alt="Наші проекти"
@@ -157,7 +170,7 @@
             /></a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./img/project2.jpg"
                 alt="Наші проекти"
@@ -166,7 +179,7 @@
             /></a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./img/project2.jpg"
                 alt="Наші проекти"
@@ -175,7 +188,7 @@
             /></a>
           </li>
           <li>
-            <a href="">
+            <a class="link" href="">
               <img
                 src="./img/project2.jpg"
                 alt="Наші проекти"
@@ -184,23 +197,26 @@
             /></a>
           </li>
         </ul>
-        <a href="">Всі проекти</a>
+        <a class="link" href="">Всі проекти</a>
       </section>
-      <section>
-        <h2>Відео про нашу роботу</h2>
+      <section class="video text-white">
+        <h2 class="section-title">Відео про нашу роботу</h2>
         <p>Просто подивіться, як ми працюємо</p>
       </section>
       <section></section>
     </main>
     <footer>
-      <ul>
+      <ul class="list">
         <li>
-          <h3>Контактная информация</h3>
-          <ul>
-            <li><a href="mailto:test@test.ru">test@test.ru</a></li>
-            <li><a href="tel:+380965556699">+3 8096 555 66 99</a></li>
+          <h3 class="item-title">Контактная информация</h3>
+          <ul class="list">
+            <li><a class="link" href="mailto:test@test.ru">test@test.ru</a></li>
+            <li>
+              <a class="link" href="tel:+380965556699">+3 8096 555 66 99</a>
+            </li>
             <li>
               <a
+                class="link"
                 href="https://goo.gl/maps/XusATAJyjXo5uMZw5"
                 rel="noreferrer noopener nofollow"
                 target="_blank"
@@ -210,29 +226,29 @@
           </ul>
         </li>
         <li>
-          <h3>Основні посилання</h3>
-          <ul>
-            <li><a href="#home">Головна</a></li>
-            <li><a href="#project"></a>Наші проекти</li>
-            <li><a href="#service"></a>Послуги</li>
-            <li><a href="#news"></a>Новини</li>
-            <li><a href="#contacts"></a>Контакти</li>
+          <h3 class="item-title">Основні посилання</h3>
+          <ul class="list">
+            <li><a class="link" href="#home">Головна</a></li>
+            <li><a class="link" href="#project"></a>Наші проекти</li>
+            <li><a class="link" href="#service"></a>Послуги</li>
+            <li><a class="link" href="#news"></a>Новини</li>
+            <li><a class="link" href="#contacts"></a>Контакти</li>
           </ul>
         </li>
         <li>
-          <h3>Наші проекти</h3>
-          <ul>
+          <h3 class="item-title">Наші проекти</h3>
+          <ul class="list">
             <li>
-              <a href="">Укрпошта</a>
+              <a class="link" href="">Укрпошта</a>
             </li>
-            <li><a href="">Нафтогаз</a></li>
-            <li><a href="">Львівська пивоварня</a></li>
-            <li><a href="">ТЭЦ Калуша</a></li>
+            <li><a class="link" href="">Нафтогаз</a></li>
+            <li><a class="link" href="">Львівська пивоварня</a></li>
+            <li><a class="link" href="">ТЭЦ Калуша</a></li>
           </ul>
         </li>
         <li>
-          <h3>Соціальні мережі</h3>
-          <ul>
+          <h3 class="item-title">Соціальні мережі</h3>
+          <ul class="list">
             <li></li>
             <li></li>
             <li></li>
