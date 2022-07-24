@@ -28,8 +28,16 @@
           </ul>
         </nav>
         <ul class="contact-list list">
-          <li><a class="contact-link link" href="mailto:email@mail.com">email@mail.com</a></li>
-          <li><a class="contact-link link" href="tel:+38000000000">+3-800-000-0000</a></li>
+          <li><a class="contact-link link" href="mailto:email@mail.com">
+            <svg class="contact-icon">
+              <use href="./img/sprite.svg#icon-envelope"></use>
+            </svg>
+            email@mail.com</a></li>
+          <li><a class="contact-link link" href="tel:+38000000000">
+            <svg class="contact-icon">
+              <use href="./img/sprite.svg#icon-call"></use>
+            </svg>
+            +3-800-000-0000</a></li>
         </ul>
       </div>
     </header>
@@ -40,7 +48,7 @@
           <h1 class="hero-title">
             Ми створюємо легкі рішення важких задач і проблем
           </h1>
-          <button class="main-button" type="button">Замовити проект</button>
+          <button class="main-button" type="button" data-modal-open>Замовити проект</button>
         </div>
       </section>
       <section class="about section">
@@ -179,7 +187,7 @@
                 width="350"
                 height="300"
               />
-              <h3 class="item-title">01. Дослідження і упаковка</h3>
+              <h3 class="item-title work-title"> Дослідження і упаковка</h3>
               <p>
                 Lorem Ipsum - це текст-"риба", що часто використовується в пресі
                 та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
@@ -194,7 +202,7 @@
                 width="350"
                 height="300"
               />
-              <h3 class="item-title">01. Дослідження і упаковка</h3>
+              <h3 class="item-title work-title"> Дослідження і упаковка Дослідження і упаковка</h3>
               <p>
                 Lorem Ipsum - це текст-"риба", що часто використовується в пресі
                 та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
@@ -209,7 +217,7 @@
                 width="350"
                 height="300"
               />
-              <h3 class="item-title">01. Дослідження і упаковка</h3>
+              <h3 class="item-title work-title"> Дослідження і упаковка</h3>
               <p>
                 Lorem Ipsum - це текст-"риба", що часто використовується в пресі
                 та веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на
@@ -220,7 +228,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section project">
         <div class="container">
           <h2 class="section-title text-black">Наші проекти</h2>
           <p>
@@ -228,42 +236,66 @@
             веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
             з початку XVI ст.
           </p>
-          <ul class="list">
-            <li>
-              <a class="link" href="">
-                <img
-                  src="./img/project2.jpg"
-                  alt="Наші проекти"
-                  width="250"
-                  height="250"
-              /></a>
+          <ul class="list project-list card-set">
+            <li class="card-item">
+              <a class="link project-link" href="">
+                <div class="project-overlay">
+
+
+                  <img
+                    src="./img/project2.jpg"
+                    alt="Наші проекти"
+                    width="250"
+                    height="250"
+                />
+                   <p class="project-about">hidden-text</p>
+                </div>
+            <div class="project-wrapper"><h2 class="project-title">title</h2><p>text</p></div></a>
             </li>
-            <li>
-              <a class="link" href="">
-                <img
-                  src="./img/project2.jpg"
-                  alt="Наші проекти"
-                  width="250"
-                  height="250"
-              /></a>
+            <li class="card-item">
+              <a class="link project-link" href="">
+                <div class="project-overlay">
+
+
+                  <img
+                    src="./img/project2.jpg"
+                    alt="Наші проекти"
+                    width="250"
+                    height="250"
+                />
+                <p class="project-about">hidden-text</p>
+                </div>
+            <div class="project-wrapper"><h2 class="project-title">title</h2><p>text</p></div></a>
             </li>
-            <li>
-              <a class="link" href="">
-                <img
-                  src="./img/project2.jpg"
-                  alt="Наші проекти"
-                  width="250"
-                  height="250"
-              /></a>
+            <li class="card-item">
+              <a class="link project-link" href="">
+                <div class="project-overlay">
+
+
+                  <img
+                    src="./img/project2.jpg"
+                    alt="Наші проекти"
+                    width="250"
+                    height="250"
+                />
+                   <p class="project-about">hidden-text</p>
+                </div>
+            <div class="project-wrapper"><h2 class="project-title">title</h2><p>text</p></div></a>
             </li>
-            <li>
-              <a class="link" href="">
-                <img
-                  src="./img/project2.jpg"
-                  alt="Наші проекти"
-                  width="250"
-                  height="250"
-              /></a>
+            <li class="card-item">
+              <a class="link project-link" href="">
+                <div class="project-overlay">
+
+
+                  <img
+                    src="./img/project2.jpg"
+                    alt="Наші проекти"
+                    width="250"
+                    height="250"
+                />
+                   <p class="project-about">hidden-text</p>
+                </div>
+            <div class="project-wrapper"><h2 class="project-title">title</h2><p>text</p></div></a>
             </li>
           </ul>
           <a class="link" href="">Всі проекти</a>
@@ -331,5 +363,16 @@
         <p>(с) 2019. Всі права захищені</p>
       </div>
     </footer>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" data-modal-close> Close</button>
+  </div>
+</div>
+
+<script src="./js/modal.js"></script>
+
+
   </body>
+
+
 </html>
