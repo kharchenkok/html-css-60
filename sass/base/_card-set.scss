@@ -1,0 +1,18 @@
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--card-gap);
+  /* margin-left: calc(-1 * var(--card-gap));
+    margin-top: calc(-1 * var(--card-gap)); */
+    @include mq(tab){
+      --card-item:2;
+    }
+}
+
+.card-item {
+  /* flex-basis: calc((100% - (3 - 1) * 30px) / 3); */
+  flex-basis: calc((100% - (var(--card-item) - 1) * var(--card-gap)) / var(--card-item));
+  /* flex-basis: calc(100% / var(--card-item) - var(--card-gap)); */
+  /* margin-left: var(--card-gap);
+    margin-top: var(--card-gap); */
+}

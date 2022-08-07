@@ -1,0 +1,23 @@
+.work {
+  background: linear-gradient(to bottom, var(--violet-cl), var(--violet-cl) 30%, #c4c4c4 30%, #c4c4c4);
+}
+
+.work-list {
+  counter-reset: title;
+
+}
+
+.work-title {
+  counter-increment: title;
+  position: relative;
+  padding-left: 65px;
+}
+
+.work-title::before {
+  position: absolute;
+  content: "0" counter(title) ".";
+  font-size: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
