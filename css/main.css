@@ -460,6 +460,30 @@ body {
 
 .about-list {
   margin-bottom: 55px;
+  --card-item: 3;
+}
+
+.about-item {
+  padding-left: 120px;
+  position: relative;
+}
+.about-item::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+.about-item:nth-child(3n+1)::before {
+  background-image: url(../img/icon-1.svg);
+}
+.about-item:nth-child(3n+2)::before {
+  background-image: url(../img/icon-2.svg);
+}
+.about-item:nth-child(3n+3)::before {
+  background-image: url(../img/icon-3.svg);
 }
 
 .standart-list {
