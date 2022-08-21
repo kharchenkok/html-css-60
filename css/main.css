@@ -477,6 +477,15 @@ body {
   height: 110px;
   border-radius: 50%;
 }
+.about-item:nth-child(3n+0)::before {
+  background-color: red;
+}
+.about-item:nth-child(3n+1)::before {
+  background-color: green;
+}
+.about-item:nth-child(3n+2)::before {
+  background-color: blue;
+}
 .about-item:nth-child(3n+1)::before {
   background-image: url(../img/icon-1.svg);
 }
